@@ -1,0 +1,96 @@
+.tucker {
+  display: flex;
+  width: 490px;
+  height: 50px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(9, 121, 248);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 110px;
+  margin-right: 100px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-right: 50px;
+}
+
+.block {
+  display: block;
+  width: 100px;
+  height: 39px;
+  padding: 17px 23px;
+  padding-top: 9px;
+  margin-top: 30px;
+  border: solid #0099ff;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+body::before {
+  margin-left: 50px;
+  content: "M";
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  font-family: serif;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: serif;
+}
+
+aside {
+  margin-left: 230px;
+}
+
+.read {
+  margin-left: 120px;
+  margin-bottom: 0px;
+  font-size: 29px;
+}
+
+.you {
+  font-weight: bold;
+  margin-top: 59px;
+  font-size: 39px;
+  font-family: serif;
+}
+
+.john-tucker {
+  margin-left: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+.image {
+  border-radius: 50%;
+  margin-top: 19px;
+}
