@@ -10,7 +10,7 @@ body {
 }
 
 .responsive {
-  width: 100%;
+  max-width: 1000px;
   
 }
 
@@ -102,19 +102,3 @@ aside {
   border-radius: 50%;
   margin-top: 19px;
 }
-
-/* For small screens (e.g., smartphones) */
-@media only screen and (max-width: 600px) {
-    /* CSS rules for small screens go here */
-}
-
-/* For medium screens (e.g., tablets) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* CSS rules for medium screens go here */
-}
-
-/* For large screens (e.g., desktops) */
-@media only screen and (min-width: 1025px) {
-    /* CSS rules for large screens go here */
-}
-
